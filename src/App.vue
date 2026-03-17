@@ -13,11 +13,6 @@
       </div>
     </header>
 
-    <!-- Banner -->
-    <div class="app__banner">
-      <QuizBanner />
-    </div>
-
     <!-- Content -->
     <main class="app__content">
       <!-- Stats -->
@@ -55,7 +50,6 @@
 import { reactive } from 'vue'
 import SearchBar from '@/components/SearchBar.vue'
 import FilterTabs from '@/components/FilterTabs.vue'
-import QuizBanner from '@/components/QuizBanner.vue'
 import ModuleGroup from '@/components/ModuleGroup.vue'
 import { useQuizSearch } from '@/composables/useQuizSearch'
 
